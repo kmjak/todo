@@ -6,7 +6,7 @@ export default function TodoList() {
   return (
     <ul className="flex flex-col gap-2 py-4">
       {todos.map((todo:Todo) => (
-        <TodoItem key={todo.id} name={todo.name} />
+        <TodoItem key={todo.id} name={todo.name} id={todo.id} />
       ))}
     </ul>
   );
