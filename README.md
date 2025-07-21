@@ -289,15 +289,11 @@ npm run dev
 新しい機能を開発する際は、メインブランチとは別のブランチで作業するのがベストプラクティスです：
 
 ```bash
-# 現在のbrachの確認
 git branch
 
-# branchを作成
 git branch feature/components/header
-# 作成したbranchに移動
 git checkout feature/components/header
 
-# 移動できているか確認
 git branch
 ```
 
